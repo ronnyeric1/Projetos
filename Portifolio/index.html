@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Portifólio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span>o Ronny</span></h1>
+            <p>Deve iniciante em Web</p>
+            <a href="#projetos" class="button">Ver Meus Projetos</a>
+        </div>
+        <div class="hero-image">
+            <img src="./Images/comp.jpg" alt="Sua Foto">
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre Mim</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="./Images/1730742026693.jpg" alt="Sobre Mim Imagem">
+            </div>
+            <div class="about-text">
+                <p>Sou novo em desenvolvimento de sites, estou começando agora, iniciei minha faculdade em "Analise e desenvolvimento de Sistemas" agora no inicio de 2025, Estou no primeiro semestre da faculdade.</p>
+                <p>Uma das minhas qualidade é ser esforçado e persistente, minhas experiências nos meus estudos está sendo gratificante, estou cada dia mais fascinado pela programação.</p>
+                <a href="./curriculo/Currículo att.pdf" class="button">Download Currículo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills">
+        <h2>Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>Desenvolvimento Web iniciante</h3>
+                <p>HTML, CSS, JavaScript.</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Design UI/UX</h3>
+                <p>Photoshop</p>
+            </div>
+            
+            </div>
+    </section>
+
+    <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./Projetos/Calculadora.png" alt="Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Calculadora Simples das 4 Operações Básicas</p>
+                <a href="#" target="_blank">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <div class="project-card">
+                <img src="./Projetos/Contador.png" alt="Projeto 2">
+                <h3>Projeto 2</h3>
+                <p>Um contador simples</p>
+                <a href="#" target="_blank">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <div class="project-card">
+                <img src="./Projetos/Seletor de Cores RGB.png" alt="Projeto 3">
+                <h3>Projeto 3</h3>
+                <p>Um seletor para criar uma cor desejada.</p>
+                <a href="#" target="_blank">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <div class="contact-content">
+            <p>Sinta-se à vontade para entrar em contato!</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        <p>&copy; 2025, Feito por Ronny Eric. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
